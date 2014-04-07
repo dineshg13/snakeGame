@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script src="snake.js"></script>
+        <style type="text/css">
+            body {
+                background: #999;
+            }
+        
+            .gameCanvas {
+                border : 1px solid red;
+                width: 800px;
+                height: 800px;
+                background: #00001a
+            }
+        </style>
+    </head>
+    <body>
+        <h1>We don't have the page you were looking for...</h1>
+        <h2>But we do have Snake!</h2>
+        <div id="snakeCanvas" class="gameCanvas">
+            <noscript>
+                You need JavaScript enabled in order to play Snake
+            </noscript>
+        </div>
+        <a href="/" id="goHomeCanvas">Go home</a>
+        <a href="#snakeCanvas">Play Snake</a>
+        <script>
+            var canvas = new Canvas('#snakeCanvas', 40, 40);
+        </script>      
+    </body>    
+</html>
